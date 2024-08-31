@@ -1,38 +1,41 @@
 {
-  "name": "policy-readability-dashboard",
-  "version": "0.1.0",
-  "private": true,
+  "name": "choropleth-mapchart-showing-vulnerability-by-country",
+  "homepage": "https://cycl0n3sab3r.github.io",
+  "version": "1.0.0",
+  "description": "A react-simple-maps example showing a choropleth mapchart of countries' vulnerability according to the ND-GAIN index.",
+  "keywords": [],
+  "main": "src/index.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "chart.js": "^4.4.3",
+    "d3-fetch": "1.1.2",
+    "d3-geo": "^3.1.1",
+    "d3-scale": "^4.0.2",
+    "lucide-react": "^0.436.0",
+    "react": "^16.8.6",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^5.0.1",
+    "react-simple-maps": "^1.0.0",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "typescript": "3.3.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
+
+
