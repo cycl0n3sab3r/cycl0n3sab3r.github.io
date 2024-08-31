@@ -1,6 +1,6 @@
 {
   "name": "choropleth-mapchart-showing-vulnerability-by-country",
-  "homepage": "https://cycl0n3sab3r.github.io",
+  "homepage": "https://github.com/cycl0n3sab3r/cycl0n3sab3r.github.io",
   "version": "1.0.0",
   "description": "A react-simple-maps example showing a choropleth mapchart of countries' vulnerability according to the ND-GAIN index.",
   "keywords": [],
@@ -22,13 +22,9 @@
     "gh-pages": "^6.1.1",
     "typescript": "3.3.3"
   },
-  "scripts": {
+  "scripts":{
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "browserslist": [
     ">0.2%",
